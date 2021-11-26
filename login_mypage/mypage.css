@@ -1,0 +1,118 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.out{
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+main{
+    width: 100%;
+}
+
+.box{
+    margin: 0 auto;
+    border: lightgray solid 2px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+h2{
+    text-align: center; 
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.he{
+    font-size: 17px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.pic{
+    text-align: left;
+    border: lightgray solid 2px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.pic img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.basic{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.come{
+    text-align: left;
+    padding-top: 15px;
+    border-top: lightgray dotted 1px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.form_center{
+    text-align: center;
+}
+
+.hensyubutton{
+    text-align: center;
+    margin: 30px;
+}
+
+.sub_button{
+    border:  solid 1px lightgray;
+    padding: 6px 60px 4px 60px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid gray 2px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
